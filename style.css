@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+}
+.header1{
+    height: 120px;
+    width: 470px;
+    background-color: #212121;
+    background-image: url(./assets/img/afn\ logo\ white\ text\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.header2{
+    height: 120px;
+    width: 900px;
+    position: relative;
+}
+.forimg2{
+    height: 20px;
+    width: 30px;
+    background-image: url(./assets/img/Vector.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 40px;
+    right: 100px;
+}
+main{
+    display: flex;
+
+}
+.divbig1{
+    height: 620px;
+    width: 600px;
+    background-image: url(./assets/img/elaqe\ bg\ image\ 1440\ 1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.divbig2{
+    height: 620px;
+    width: 900px;
+    background-image: url(./assets/img/map\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.p1{
+    margin-top: 40px;
+    font-size: 29px;
+    font-weight: bolder;
+}
+.forcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 30px;
+}
+.container1 {
+    height: 190px;
+    width: 290px;
+    border: 1px solid gray;
+    background-color: rgb(220, 217, 217);
+    border-radius: 8px;
+    box-shadow: 1px 1px 3px #212121;
+}
+.phone{
+    display: flex;
+}
+#fa-phone{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.telephone{
+    margin: 0px 0px 0px 5px;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.telephone1{
+    color: gray;
+    padding: 10px;
+    margin-left: 10px;
+}
+.telephone2{
+    color: gray;
+    padding: 10px;
+    margin-left: 10px;
+}
+.container2{
+    height: 190px;
+    width: 290px;
+    border: 1px solid gray;
+    background-color: rgb(220, 217, 217);
+    border-radius: 8px;
+    box-shadow: 1px 1px 3px #212121;
+}
+.emaildiv{
+    display: flex;
+}
+#fa-envelope{
+    margin-top: 13px;
+    margin-left: 15px;
+}
+.email{
+    margin: 0px 0px 0px 5px;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.email1{
+    color: gray;
+    padding: 10px;
+    margin-left: 10px;
+}
+.container3{
+    height: 190px;
+    width: 290px;
+    border: 1px solid gray;
+    background-color: rgb(220, 217, 217);
+    border-radius: 8px;
+    box-shadow: 1px 1px 3px #212121;
+}
+.unvandiv{
+    display: flex;
+}
+#fa-mountain-sun{
+    margin-top: 13px;
+    margin-left: 15px;
+}
+.unvan{
+    margin: 0px 0px 0px 5px;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.unvan1{
+    color: gray;
+    padding: 10px;
+    margin-left: 10px;
+}
+.container4{
+    height: 190px;
+    width: 290px;
+    border: 1px solid gray;
+    background-color: rgb(220, 217, 217);
+    border-radius: 8px;
+    box-shadow: 1px 1px 3px #212121;
+}
+.sosial{
+    margin: 10px 0px 0px 20px;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+i{
+    font-size: 25px;
+}
+#facebook{
+    margin-left: 30px;
+}
+#insta{
+    margin-left: 9px;
+}
+#twitter{
+    margin-left: 9px;
+}
